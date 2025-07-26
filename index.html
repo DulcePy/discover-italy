@@ -10,7 +10,11 @@
     <meta name="keywords" content="HTML, CSS, TailwindCSS, Italy, Discover Italy, Responsive Design">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- title -->
     <title>Discover Italy</title>
+
+    <!-- logo -->
+    <link rel="icon" href="assets/crown.png" type="image/x-icon">
 
     <!-- css -->
     <link rel="stylesheet" href="style.css">
@@ -31,18 +35,21 @@
 
 <body>
     <!-- menu -->
-    <header class="text-[#ecfeff] flex justify-between p-4 h-[70px] items-center bg-[#102e33]">
-        <div><span class="text-[14px] md:text-2xl"><i class="fa-brands fa-web-awesome"></i></span></div>
-        <ul class="menu font-medium flex justify-end items-center gap-4 text-[12px] md:text-[14px]">
-            <li>Home</li>
-            <li>About</li>
-            <li>Discover</li>
-            <li>Contact</li>
-        </ul>
+    <header class="fixed top-0 left-0 right-0 p-3 text-[#ecfeff] flex justify-center items-center">
+        <nav
+            class="w-full max-w-2xl h-[40px] bg-[#102e33] flex justify-center items-center rounded-xl">
+
+            <ul class="menu font-medium flex gap-4 text-[12px] md:text-[14px]">
+                <li class="hover:text-[#ccc] underline"><a href="#home">Home</a> </li>
+                <li class="hover:text-[#ccc]"><a href="#about">About</a></li>
+                <li class="hover:text-[#ccc]"><a href="#discover">Discover</a></li>
+                <li class="hover:text-[#ccc]"><a href="#gallery">Gallery</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!-- hero -->
-    <div class="hero text-center">
+    <div id="home" class="hero text-center">
         <h3 class="text-white capitalize text-[14px] lg:text-2xl mb-2">tourist destinations</h3>
         <h2 class="bg-image text-white font-bold text-5xl md:text-6xl lg:text-7xl xl:text-8xl m-[10px]">Let's discover
             Italy</h2>
@@ -83,25 +90,36 @@
     <!-- Discover -->
     <section id="discover" class="">
         <div class="flex w-[90%] md:w-[80%] mx-auto">
-
             <div class="flex justify-center items-center mx-auto">
-
                 <h2 class="font-bold text-2xl md:text-3xl lg:text-4xl xl:text-5xl">Discover Italy</h2>
             </div>
         </div>
-
-
-
     </section>
 
     <!-- contact -->
-    <section id="contact">
-        <h2>Contact</h2>
+    <section id="gallery">
+        <div class="flex w-[90%] md:w-[80%] mx-auto">
+            <div class="flex justify-center items-center mx-auto">
+                <h2 class="font-bold text-2xl md:text-3xl lg:text-4xl xl:text-5xl">Gallery</h2>
+            </div>
+        </div>
     </section>
 
     <!-- footer -->
-    <section id="footer">
-        <h2>Footer</h2>
+    <section id="footer" class="bg-[#102e33]">
+        <div class="flex w-full h-[180px] justify-center items-center flex-col gap-4">
+            <div class="flex flex-row gap-4 text-[#102e33] text-3xl">
+                <div class="bg-[#ecfeff] rounded-[50%] flex justify-center items-center w-[40px] h-[40px] md:w-[50px] md:h-[50px] hover:bg-black hover:text-[#ecfeff] transition duration-700 ease-in-out">
+                    <a href="https://github.com/DulcePy" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div class="bg-[#ecfeff] rounded-[50%] flex justify-center items-center w-[40px] h-[40px] md:w-[50px] md:h-[50px] hover:bg-black hover:text-[#ecfeff] transition duration-700 ease-in-out">
+                    <a href="https://www.linkedin.com/in/dulce-figueredo-py" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="text-[#ecfeff]">
+                <p>Coded by Dulce Figueredo</p>
+            </div>
+        </div>
     </section>
 
 

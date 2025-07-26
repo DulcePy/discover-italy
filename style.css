@@ -20,16 +20,17 @@ body {
 }
 
 .hero button {
-  margin-top: 80px;
+  margin-top: 100px;
   cursor: pointer;
   transition: 1s ease-in-out;
-  background-color: rgba(83, 83, 83, 0.4);
+  background-color: #102e33;
+  opacity: 0.5;
   padding: 10px 12px;
   border-radius: 100%;
 }
 
 .hero button:hover {
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .description p {
@@ -42,4 +43,8 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+}
+
+p {
+  color: #3f3f3f;
 }
