@@ -32,8 +32,8 @@
 <body>
     <!-- menu -->
     <header class="text-[#ecfeff] flex justify-between p-4 h-[70px] items-center bg-[#102e33]">
-        <div><span class="text-2xl"><i class="fa-brands fa-web-awesome"></i></span></div>
-        <ul class="menu font-medium flex justify-end items-center gap-4">
+        <div><span class="text-[14px] md:text-2xl"><i class="fa-brands fa-web-awesome"></i></span></div>
+        <ul class="menu font-medium flex justify-end items-center gap-4 text-[12px] md:text-[14px]">
             <li>Home</li>
             <li>About</li>
             <li>Discover</li>
@@ -43,8 +43,9 @@
 
     <!-- hero -->
     <div class="hero text-center">
-        <h3 class="text-white capitalize text-[12px] lg:text-2xl mb-2">tourist destinations</h3>
-        <h2 class="text-white font-medium text-2xl md:text-3xl lg:text-4xl xl:text-5xl">Let's discover Italy</h2>
+        <h3 class="text-white capitalize text-[14px] lg:text-2xl mb-2">tourist destinations</h3>
+        <h2 class="bg-image text-white font-bold text-5xl md:text-6xl lg:text-7xl xl:text-8xl m-[10px]">Let's discover
+            Italy</h2>
         <a href="#about" class="text-white">
             <button><i class="fa-solid fa-arrow-down"></i></button>
         </a>
@@ -52,10 +53,11 @@
 
     <!-- about -->
     <section id="about">
-        <div class="contain flex w-[90%] md:w-80% mx-auto justify-center items-start flex-col md:flex-row mt-30">
-            <div class="description mr-8 mb-5">
-                <h2 class="font-bold text-3xl md:text-3xl lg:text-4xl xl:text-5xl mb-6">Italy</h2>
-                <p class="text-[12px] md:text-[14px]">
+        <div
+            class="contain flex w-[90%] md:w-[80%] mx-auto justify-center items-center flex-col lg:flex-row my-[100px] gap-[20px]">
+            <div class="description">
+                <h2 class="font-bold text-2xl md:text-3xl lg:text-4xl xl:text-5xl mb-6">Italy</h2>
+                <p class="text-[12px] md:text-[14px] text-justify">
                     Its capital, Rome, is home to the Vatican, ancient ruins, and iconic works of art. Other major
                     cities
                     include Florence,
@@ -79,8 +81,17 @@
     </section>
 
     <!-- Discover -->
-    <section id="discover">
-        <h2>Discover</h2>
+    <section id="discover" class="">
+        <div class="flex w-[90%] md:w-[80%] mx-auto">
+
+            <div class="flex justify-center items-center mx-auto">
+
+                <h2 class="font-bold text-2xl md:text-3xl lg:text-4xl xl:text-5xl">Discover Italy</h2>
+            </div>
+        </div>
+
+
+
     </section>
 
     <!-- contact -->
@@ -92,6 +103,7 @@
     <section id="footer">
         <h2>Footer</h2>
     </section>
+
 
 </body>
 
