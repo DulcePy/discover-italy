@@ -45,6 +45,9 @@ body {
   color: transparent;
 }
 
-p {
-  color: #3f3f3f;
+.menu-item.active {
+  color: black;
+  font-weight: bold;
+  border-bottom: 2px solid black;
 }
+

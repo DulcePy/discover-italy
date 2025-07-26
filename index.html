@@ -35,27 +35,27 @@
 
 <body>
     <!-- menu -->
-    <header class="fixed top-0 left-0 right-0 p-3 text-[#ecfeff] flex justify-center items-center">
-        <nav
-            class="w-full max-w-2xl h-[40px] bg-[#102e33] flex justify-center items-center rounded-xl">
-
-            <ul class="menu font-medium flex gap-4 text-[12px] md:text-[14px]">
-                <li class="hover:text-[#ccc] underline"><a href="#home">Home</a> </li>
-                <li class="hover:text-[#ccc]"><a href="#about">About</a></li>
-                <li class="hover:text-[#ccc]"><a href="#discover">Discover</a></li>
-                <li class="hover:text-[#ccc]"><a href="#gallery">Gallery</a></li>
+    <header>
+        <nav class="fixed text-[#ecfeff] w-full h-[40px] bg-[#102e33] flex justify-center items-center">
+            <ul class="menu uppercase font-medium flex gap-4 text-[12px] md:text-[14px]">
+                <li class="menu-item hover:text-black transition duration-500 ease-in-out"><a href="#home">Home</a>
+                </li>
+                <li class="menu-item hover:text-black transition duration-500 ease-in-out"><a href="#about">About</a>
+                </li>
+                <li class="menu-item hover:text-black transition duration-500 ease-in-out"><a
+                        href="#discover">Discover</a></li>
+                <li class="menu-item hover:text-black transition duration-500 ease-in-out"><a
+                        href="#gallery">Gallery</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- hero -->
-    <div id="home" class="hero text-center">
-        <h3 class="text-white capitalize text-[14px] lg:text-2xl mb-2">tourist destinations</h3>
+    <div id="home" class="hero text-center h-[700px]">
+        <h3 class=" mt-15 font-[400] text-white capitalize text-[14px] lg:text-2xl">tourist destinations</h3>
         <h2 class="bg-image text-white font-bold text-5xl md:text-6xl lg:text-7xl xl:text-8xl m-[10px]">Let's discover
             Italy</h2>
-        <a href="#about" class="text-white">
-            <button><i class="fa-solid fa-arrow-down"></i></button>
-        </a>
+
     </div>
 
     <!-- about -->
@@ -63,7 +63,7 @@
         <div
             class="contain flex w-[90%] md:w-[80%] mx-auto justify-center items-center flex-col lg:flex-row my-[100px] gap-[20px]">
             <div class="description">
-                <h2 class="font-bold text-2xl md:text-3xl lg:text-4xl xl:text-5xl mb-6">Italy</h2>
+                <h2 class="font-bold text-3xl md:text-3xl lg:text-4xl xl:text-5xl mb-6">Italy</h2>
                 <p class="text-[12px] md:text-[14px] text-justify">
                     Its capital, Rome, is home to the Vatican, ancient ruins, and iconic works of art. Other major
                     cities
@@ -88,10 +88,148 @@
     </section>
 
     <!-- Discover -->
-    <section id="discover" class="">
-        <div class="flex w-[90%] md:w-[80%] mx-auto">
-            <div class="flex justify-center items-center mx-auto">
-                <h2 class="font-bold text-2xl md:text-3xl lg:text-4xl xl:text-5xl">Discover Italy</h2>
+    <section id="discover">
+        <div class="w-[90%] md:w-[80%] mx-auto">
+
+            <h2 class="font-bold text-3xl md:text-3xl lg:text-4xl xl:text-5xl">Discover <span
+                    class="text-[#016630]">Italy</span></h2>
+
+            <div class="cards flex flex-wrap gap-6 justify-center items-center text-[14px]/6 my-10">
+
+                <div class="card-body min-w-50 md:w-[20%] w-[200px] rounded-xl bg-[#e4e4e7]">
+                    <img class="rounded-t-lg" src="https://images.pexels.com/photos/2225442/pexels-photo-2225442.jpeg"
+                        alt="Rome">
+                    <h4 class="text-center font-bold text-[#030712] my-2">Fontana di Trevi</h4>
+
+                    <div class="text-center my-3">
+                        <p>
+                            <span class="text-[#52525c]">4.7</span> <span class="text-yellow-400"><i
+                                    class="fa-solid fa-star"></i></span> <span class="text-[#52525c]">(470 k)</span>
+                        </p>
+                        <p>Fuente</p>
+                        <p><span class="text-red-800"><i class="fa-solid fa-location-dot"></i></span> Rome</p>
+                        <p><span class="text-green-800"><i class="fa-solid fa-money-bill"></i></span> Free</p>
+                    </div>
+                </div>
+
+                <div class="card-body min-w-50 md:w-[20%] w-[200px] rounded-xl bg-[#e4e4e7]">
+                    <img class="rounded-t-lg" src="https://images.pexels.com/photos/2225442/pexels-photo-2225442.jpeg"
+                        alt="Rome">
+                    <h4 class="text-center font-bold text-[#030712] my-2">Coliseo de Roma</h4>
+
+                    <div class="text-center my-3">
+                        <p>
+                            <span class="text-[#52525c]">4.7</span> <span class="text-yellow-400"><i
+                                    class="fa-solid fa-star"></i></span>
+                            <span class="text-[#52525c]">(454 k)</span>
+                        </p>
+                        <p>Punto de ref...</p>
+                        <p><span class="text-red-800"><i class="fa-solid fa-location-dot"></i></span> Rome</p>
+                        <p><span class="text-green-800"><i class="fa-solid fa-money-bill"></i></span> De pago</p>
+                    </div>
+                </div>
+
+                <div class="card-body min-w-50 md:w-[20%] w-[200px] rounded-xl bg-[#e4e4e7]">
+                    <img class="rounded-t-lg" src="https://images.pexels.com/photos/2225442/pexels-photo-2225442.jpeg"
+                        alt="Rome">
+                    <h4 class="text-center font-bold text-[#030712] my-2">Basílica de San Pedro</h4>
+
+                    <div class="text-center my-3">
+                        <p>
+                            <span class="text-[#52525c]">4.8</span> <span class="text-yellow-400"><i
+                                    class="fa-solid fa-star"></i></span>
+                            <span class="text-[#52525c]">(166 k)</span>
+                        </p>
+                        <p>Basílica</p>
+                        <p><span class="text-red-800"><i class="fa-solid fa-location-dot"></i></span> Rome</p>
+                        <p><span class="text-green-800"><i class="fa-solid fa-money-bill"></i></span> Free</p>
+                    </div>
+                </div>
+
+                <div class="card-body min-w-50 md:w-[20%] w-[200px] rounded-xl bg-[#e4e4e7]">
+                    <img class="rounded-t-lg" src="https://images.pexels.com/photos/2225442/pexels-photo-2225442.jpeg"
+                        alt="Rome">
+                    <h4 class="text-center font-bold text-[#030712] my-2">Capilla Sixtina</h4>
+
+                    <div class="text-center my-3">
+                        <p>
+                            <span class="text-[#52525c]">4.7</span> <span class="text-yellow-400"><i
+                                    class="fa-solid fa-star"></i></span>
+                            <span class="text-[#52525c]">(87 k)</span>
+                        </p>
+                        <p>Iglesia Católica</p>
+                        <p><span class="text-red-800"><i class="fa-solid fa-location-dot"></i></span> Rome</p>
+                        <p><span class="text-green-800"><i class="fa-solid fa-money-bill"></i></span> De pago</p>
+                    </div>
+                </div>
+
+                <div class="card-body min-w-50 md:w-[20%] w-[200px] rounded-xl bg-[#e4e4e7]">
+                    <img class="rounded-t-lg" src="https://images.pexels.com/photos/2225442/pexels-photo-2225442.jpeg" alt="Rome">
+                    <h4 class="text-center font-bold text-[#030712] my-2">Fontana di Trevi</h4>
+                
+                    <div class="text-center my-3">
+                        <p>
+                            <span class="text-[#52525c]">4.7</span> <span class="text-yellow-400"><i
+                                    class="fa-solid fa-star"></i></span> <span class="text-[#52525c]">(470 k)</span>
+                        </p>
+                        <p>Fuente</p>
+                        <p><span class="text-red-800"><i class="fa-solid fa-location-dot"></i></span> Rome</p>
+                        <p><span class="text-green-800"><i class="fa-solid fa-money-bill"></i></span> Free</p>
+                    </div>
+                </div>
+
+                <div class="card-body min-w-50 md:w-[20%] w-[200px] rounded-xl bg-[#e4e4e7]">
+                    <img class="rounded-t-lg" src="https://images.pexels.com/photos/2225442/pexels-photo-2225442.jpeg" alt="Rome">
+                    <h4 class="text-center font-bold text-[#030712] my-2">Fontana di Trevi</h4>
+                
+                    <div class="text-center my-3">
+                        <p>
+                            <span class="text-[#52525c]">4.7</span> <span class="text-yellow-400"><i
+                                    class="fa-solid fa-star"></i></span> <span class="text-[#52525c]">(470 k)</span>
+                        </p>
+                        <p>Fuente</p>
+                        <p><span class="text-red-800"><i class="fa-solid fa-location-dot"></i></span> Rome</p>
+                        <p><span class="text-green-800"><i class="fa-solid fa-money-bill"></i></span> Free</p>
+                    </div>
+                </div>
+
+                <div class="card-body min-w-50 md:w-[20%] w-[200px] rounded-xl bg-[#e4e4e7]">
+                    <img class="rounded-t-lg" src="https://images.pexels.com/photos/2225442/pexels-photo-2225442.jpeg" alt="Rome">
+                    <h4 class="text-center font-bold text-[#030712] my-2">Fontana di Trevi</h4>
+                
+                    <div class="text-center my-3">
+                        <p>
+                            <span class="text-[#52525c]">4.7</span> <span class="text-yellow-400"><i
+                                    class="fa-solid fa-star"></i></span> <span class="text-[#52525c]">(470 k)</span>
+                        </p>
+                        <p>Fuente</p>
+                        <p><span class="text-red-800"><i class="fa-solid fa-location-dot"></i></span> Rome</p>
+                        <p><span class="text-green-800"><i class="fa-solid fa-money-bill"></i></span> Free</p>
+                    </div>
+                </div>
+
+                <div class="card-body min-w-50 md:w-[20%] w-[200px] rounded-xl bg-[#e4e4e7]">
+                    <img class="rounded-t-lg" src="https://images.pexels.com/photos/2225442/pexels-photo-2225442.jpeg" alt="Rome">
+                    <h4 class="text-center font-bold text-[#030712] my-2">Fontana di Trevi</h4>
+                
+                    <div class="text-center my-3">
+                        <p>
+                            <span class="text-[#52525c]">4.7</span> <span class="text-yellow-400"><i
+                                    class="fa-solid fa-star"></i></span> <span class="text-[#52525c]">(470 k)</span>
+                        </p>
+                        <p>Fuente</p>
+                        <p><span class="text-red-800"><i class="fa-solid fa-location-dot"></i></span> Rome</p>
+                        <p><span class="text-green-800"><i class="fa-solid fa-money-bill"></i></span> Free</p>
+                    </div>
+                </div>
+                
+
+                
+
+                
+
+                
+
             </div>
         </div>
     </section>
@@ -100,7 +238,7 @@
     <section id="gallery">
         <div class="flex w-[90%] md:w-[80%] mx-auto">
             <div class="flex justify-center items-center mx-auto">
-                <h2 class="font-bold text-2xl md:text-3xl lg:text-4xl xl:text-5xl">Gallery</h2>
+                <h2 class="font-bold text-3xl md:text-3xl lg:text-4xl xl:text-5xl">Gallery</h2>
             </div>
         </div>
     </section>
@@ -109,20 +247,25 @@
     <section id="footer" class="bg-[#102e33]">
         <div class="flex w-full h-[180px] justify-center items-center flex-col gap-4">
             <div class="flex flex-row gap-4 text-[#102e33] text-3xl">
-                <div class="bg-[#ecfeff] rounded-[50%] flex justify-center items-center w-[40px] h-[40px] md:w-[50px] md:h-[50px] hover:bg-black hover:text-[#ecfeff] transition duration-700 ease-in-out">
-                    <a href="https://github.com/DulcePy" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                <div
+                    class="bg-[#ecfeff] rounded-[50%] flex justify-center items-center w-[40px] h-[40px] md:w-[50px] md:h-[50px] hover:bg-black hover:text-[#ecfeff] transition duration-700 ease-in-out">
+                    <a href="https://github.com/DulcePy" target="_blank" rel="noopener noreferrer"><i
+                            class="fa-brands fa-github"></i></a>
                 </div>
-                <div class="bg-[#ecfeff] rounded-[50%] flex justify-center items-center w-[40px] h-[40px] md:w-[50px] md:h-[50px] hover:bg-black hover:text-[#ecfeff] transition duration-700 ease-in-out">
-                    <a href="https://www.linkedin.com/in/dulce-figueredo-py" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+                <div
+                    class="bg-[#ecfeff] rounded-[50%] flex justify-center items-center w-[40px] h-[40px] md:w-[50px] md:h-[50px] hover:bg-black hover:text-[#ecfeff] transition duration-700 ease-in-out">
+                    <a href="https://www.linkedin.com/in/dulce-figueredo-py" target="_blank"
+                        rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
             </div>
-            <div class="text-[#ecfeff]">
+            <div class="text-[#f2f8fc] text-1xl">
                 <p>Coded by Dulce Figueredo</p>
             </div>
         </div>
     </section>
 
 
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>
