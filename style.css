@@ -1,3 +1,7 @@
+:root {
+  --cursiveFont: "Ephesis", cursive;
+}
+
 html {
   scroll-behavior: smooth;
 }
