@@ -40,7 +40,7 @@
 <body>
     <!-- menu -->
     <header>
-        <nav class="fixed text-[#ecfeff] w-full h-[40px] bg-[#102e33] flex justify-center items-center">
+        <nav class="text-[#ecfeff] w-full h-[40px] bg-[#102e33] flex justify-center items-center">
             <ul class="menu uppercase font-medium flex gap-4 text-[12px] md:text-[14px]">
                 <li class="menu-item hover:text-black transition duration-500 ease-in-out"><a href="#home">Home</a>
                 </li>
@@ -366,19 +366,123 @@
 
             <!-- BUTTON -->
             <div class="flex justify-center">
-                <button class="bg-[#e4eaee] py-4 px-[2rem] md:px-[10rem] rounded-[20px] mt-5 hover:bg-[#dae0e3] transition delay-150 duration-300 ease-in-out" type="button">
-                    <a href="https://www.google.com/search?q=sitios+turisticos+en+italia+para+visitar&client=firefox-b-d&sca_esv=de412451579efa94&sxsrf=AE3TifO2up7agvPYpokeq7qsXEsieG2-uw:1753665205524&udm=15&sa=X&ved=2ahUKEwj1joX9r96OAxWKq5UCHQArNegQxN8JegQITxA0&biw=1366&bih=651&dpr=1" target="_blank" rel="noopener noreferrer">More activities <i class="fa-solid fa-angle-right"></i></a>
+                <button
+                    class="bg-[#e4eaee] py-4 px-[2rem] md:px-[10rem] rounded-[20px] mt-5 hover:bg-[#dae0e3] transition delay-150 duration-300 ease-in-out"
+                    type="button">
+                    <a href="https://www.google.com/search?q=sitios+turisticos+en+italia+para+visitar&client=firefox-b-d&sca_esv=de412451579efa94&sxsrf=AE3TifO2up7agvPYpokeq7qsXEsieG2-uw:1753665205524&udm=15&sa=X&ved=2ahUKEwj1joX9r96OAxWKq5UCHQArNegQxN8JegQITxA0&biw=1366&bih=651&dpr=1"
+                        target="_blank" rel="noopener noreferrer">More activities <i
+                            class="fa-solid fa-angle-right"></i></a>
                 </button>
             </div>
         </div>
     </section>
 
     <!-- gallery -->
-    <section id="gallery" class="my-[100px]">
-        <div class="flex w-[90%] md:w-[80%] mx-auto">
-            <h2 class="font-bold text-3xl md:text-3xl lg:text-4xl xl:text-5xl">Gallery</h2>
+    <section id="gallery" class="my-[100px] py-16">
+        <div class="w-[90%] md:w-[80%] mx-auto">
+            <h2 class="font-bold text-3xl md:text-3xl lg:text-4xl xl:text-5xl">Discover the Flavors of Italy</h2>
 
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 my-10 px-4 max-w-5xl mx-auto">
+                <!-- CARD -->
+                <div class="relative group bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition">
+                    <img src="https://i.pinimg.com/736x/68/dc/31/68dc31199d9d21be40d49a1e30c4a703.jpg"
+                        alt="Risotto alla Milanese"
+                        class="w-full h-60 object-cover object-center transition-transform duration-300 group-hover:scale-110">
 
+                    <!-- info -->
+                    <div class="p-5 flex flex-col justify-between h-auto">
+                        <h4 class="text-lg font-bold text-[#47372b] mb-1 text-center">
+                            Risotto alla Milanese
+                        </h4>
+
+                        <div class="text-center text-gray-700 text-sm">
+                            <p>
+                                Region: <span class="font-semibold">Lombardy</span>
+                            </p>
+                            <p>
+                                Best season: <span class="font-semibold">Autumn - Winter</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- overlay -->
+                    <div
+                        class="absolute inset-0 bg-black/80 flex flex-col justify-center items-center px-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <h4 class="text-xl text-yellow-300 font-bold mb-2 text-center">Risotto alla Milanese</h4>
+                        <p class="text-white text-sm text-center">
+                            Sauté onion in butter, add rice, pour in white wine, and let it evaporate. Add broth little
+                            by little until the rice is
+                            creamy. Stir in saffron and finish with butter and Parmesan cheese.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- CARD -->
+                <div class="relative group bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition">
+                    <img src="https://i.pinimg.com/736x/68/dc/31/68dc31199d9d21be40d49a1e30c4a703.jpg" alt="Risotto alla Milanese"
+                        class="w-full h-60 object-cover object-center transition-transform duration-300 group-hover:scale-110">
+                
+                    <!-- info -->
+                    <div class="p-5 flex flex-col justify-between h-auto">
+                        <h4 class="text-lg font-bold text-[#47372b] mb-1 text-center">
+                            Risotto alla Milanese
+                        </h4>
+                
+                        <div class="text-center text-gray-700 text-sm">
+                            <p>
+                                Region: <span class="font-semibold">Lombardy</span>
+                            </p>
+                            <p>
+                                Best season: <span class="font-semibold">Autumn - Winter</span>
+                            </p>
+                        </div>
+                    </div>
+                
+                    <!-- overlay -->
+                    <div
+                        class="absolute inset-0 bg-black/80 flex flex-col justify-center items-center px-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <h4 class="text-xl text-yellow-300 font-bold mb-2 text-center">Risotto alla Milanese</h4>
+                        <p class="text-white text-sm text-center">
+                            Sauté onion in butter, add rice, pour in white wine, and let it evaporate. Add broth little
+                            by little until the rice is
+                            creamy. Stir in saffron and finish with butter and Parmesan cheese.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- CARD -->
+                <div class="relative group bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition">
+                    <img src="https://i.pinimg.com/736x/68/dc/31/68dc31199d9d21be40d49a1e30c4a703.jpg" alt="Risotto alla Milanese"
+                        class="w-full h-60 object-cover object-center transition-transform duration-300 group-hover:scale-110">
+                
+                    <!-- info -->
+                    <div class="p-5 flex flex-col justify-between h-auto">
+                        <h4 class="text-lg font-bold text-[#47372b] mb-1 text-center">
+                            Risotto alla Milanese
+                        </h4>
+                
+                        <div class="text-center text-gray-700 text-sm">
+                            <p>
+                                Region: <span class="font-semibold">Lombardy</span>
+                            </p>
+                            <p>
+                                Best season: <span class="font-semibold">Autumn - Winter</span>
+                            </p>
+                        </div>
+                    </div>
+                
+                    <!-- overlay -->
+                    <div
+                        class="absolute inset-0 bg-black/80 flex flex-col justify-center items-center px-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <h4 class="text-xl text-yellow-300 font-bold mb-2 text-center">Risotto alla Milanese</h4>
+                        <p class="text-white text-sm text-center">
+                            Sauté onion in butter, add rice, pour in white wine, and let it evaporate. Add broth little
+                            by little until the rice is
+                            creamy. Stir in saffron and finish with butter and Parmesan cheese.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
