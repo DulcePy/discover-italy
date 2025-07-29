@@ -20,6 +20,11 @@ Discover Italy is a responsive web platform that provides essential information 
   - Best seasons to taste
   - Preparation descriptions
 
+
+## Project view
+
+<img src="assets/project-callage.jpg" width="700px">
+
 ## 🛠️ Technologies Used
 
 - **HTML5**: Semantic markup for improved accessibility and SEO
@@ -43,12 +48,6 @@ Discover Italy is a responsive web platform that provides essential information 
 - Font Awesome for icons
 - Google Fonts for typography
 - TailwindCSS for styling
-
-## 👩‍💻 Author
-
-- **Dulce Figueredo**
-  - [GitHub](https://github.com/DulcePy)
-  - [LinkedIn](https://www.linkedin.com/in/dulce-figueredo-py)
 
 ## 🚀 Live Demo
 
