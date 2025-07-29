@@ -15,7 +15,7 @@ body {
 
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("https://images.pexels.com/photos/2064827/pexels-photo-2064827.jpeg");
+    url("assets/italy/hero-bg-image.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -59,4 +59,3 @@ body {
   font-weight: bold;
   border-bottom: 2px solid black;
 }
-
